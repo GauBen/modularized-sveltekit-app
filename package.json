@@ -1,0 +1,11 @@
+{
+  "name": "modularized-sveltekit-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "clean": "pnpm -r clean",
+    "check": "pnpm -r check",
+    "dev": "npm run build && cd app && pnpm dev"
+  }
+}
